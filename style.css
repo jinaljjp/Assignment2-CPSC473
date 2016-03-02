@@ -1,0 +1,101 @@
+body {
+  background: #f9e933;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
+  padding-top: 1em;
+  
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+  font-size: 30px;
+  font-family:  sans-serif;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: white;
+  overflow: auto;
+  
+}
+
+
+main .left {
+  float: left;
+  width: 570px;
+}
+/* for FAQ style*/
+main .right {
+  float: right;
+  width: 285px;
+}
+.main_page h1, h2{
+	text-align:center;
+}
+.main_page p {
+  text-align: justify;
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.main_page h3{
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+}
+/* unvisited link */
+
+a:link {
+  color: #0000FF;
+}
+
+/* visited link */
+
+a:visited {
+  color: #0000FF;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #DC143C;
+}
+
+
+/* selected link */
+
+a:active {
+  color:#8E8E8E ;
+}
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+/* sign_up page*/
+main table{
+	margin-left:37%;
+}
